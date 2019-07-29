@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3> Claire Muwanguzi Website:</h3>
+
+This is my official website build using React.js 
 
 ## Available Scripts
 
