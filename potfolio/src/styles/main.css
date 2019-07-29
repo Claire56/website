@@ -7,7 +7,15 @@ body, html{
   display: flex;
   flex-direction: column;
 }
-
+.down{
+    flex: 1;
+    margin: auto;
+    width: 98%;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+  
 .top{
   flex: 1;
   padding-top: 30px;
@@ -100,14 +108,6 @@ a{
   color: white;
 }
 
-.down{
-  flex: 1;
-  margin: auto;
-  width: 98%;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
-}
 
 .menu{
   margin: auto;

@@ -27,26 +27,30 @@ class Home extends Component{
 
         return(
         <div className="container">
-            <div className="top">
-                <img src={portifolioImg} alt="" className="protfolio-img" />
-                <h3 className="profile-name">Claire Muwanguzi</h3>
-                <h3 className="profession">Software Engineer</h3>
-                <ul className="social-link">
-                    <li><a href="https://twitter.com/Claire_codes"><i className={'fab fa-facebook'} /></a></li>
-                    <li><a href="https://twitter.com/Claire_codes"><i className={'fab fa-twitter'} /></a></li>
-                    <li><a href="https://github.com/Claire56"><i className={'fab fa-github'} /></a></li>
-                    <li><a href="https://www.linkedin.com/in/claire-muw/"><i className={'fab fa-linkedin'} /></a></li>
-                </ul>
-            </div>
+            
             <div className="down">
                 <nav className="menu">
                     <ul className="menu-list">
+                        <li><a href="#" className={((activeContent==='claire')?'active':'')} onClick={()=>this.showContent('claire')}>Projects</a></li>
                         <li><a href="#" className={((activeContent==='projects')?'active':'')} onClick={()=>this.showContent('projects')}>Projects</a></li>
                         <li><a href="#" className={((activeContent==='skills')?'active':'')} onClick={()=>this.showContent('skills')}>Skills</a></li>
                         <li><a href="#" className={((activeContent==='blog')?'active':'')} onClick={()=>this.showContent('blog')}>Blog</a></li>
                         <li><a href="#" className={((activeContent==='career')?'active':'')} onClick={()=>this.showContent('career')}>Career</a></li>
                     </ul>
                 </nav>
+
+                <div className={"top "+((activeContent==='claire')?'show':'hide')}>
+                    <img src={portifolioImg} alt="" className="protfolio-img" />
+                    <h3 className="profile-name">Claire Muwanguzi</h3>
+                    <h3 className="profession">Software Engineer</h3>
+                    <ul className="social-link">
+                        <li><a href="https://twitter.com/Claire_codes"><i className={'fab fa-facebook'} /></a></li>
+                        <li><a href="https://twitter.com/Claire_codes"><i className={'fab fa-twitter'} /></a></li>
+                        <li><a href="https://github.com/Claire56"><i className={'fab fa-github'} /></a></li>
+                        <li><a href="https://www.linkedin.com/in/claire-muw/"><i className={'fab fa-linkedin'} /></a></li>
+                    </ul>
+            </div>
+            
                 <div className={"projects "+((activeContent==='projects')?'show':'hide')} >
                     <div className="project-item">
                         <img src={ZyzyImg} alt="Zyzy-gif" className ="project-img"/>
