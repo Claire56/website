@@ -31,7 +31,7 @@ class Home extends Component{
             <div className="down">
                 <nav className="menu">
                     <ul className="menu-list">
-                        <li><a href="#" className={((activeContent==='claire')?'active':'')} onClick={()=>this.showContent('claire')}>Projects</a></li>
+                        <li><a href="#" className={((activeContent==='claire')?'active':'')} onClick={()=>this.showContent('claire')}> Claire</a></li>
                         <li><a href="#" className={((activeContent==='projects')?'active':'')} onClick={()=>this.showContent('projects')}>Projects</a></li>
                         <li><a href="#" className={((activeContent==='skills')?'active':'')} onClick={()=>this.showContent('skills')}>Skills</a></li>
                         <li><a href="#" className={((activeContent==='blog')?'active':'')} onClick={()=>this.showContent('blog')}>Blog</a></li>
