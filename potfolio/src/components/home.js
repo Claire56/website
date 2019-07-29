@@ -3,6 +3,7 @@ import portifolioImg from '../images/picDress.jpg';
 import ZyzyImg from '../images/Zz.gif';
 import shelter from '../images/Shelter.png';
 import techImg from '../images/techBot.gif';
+import web from '../images/web.gif';
 import google from '../images/googleNest.png';
 import jh from '../images/jh.jpg';
 import python from '../images/skills/python.png';
@@ -78,7 +79,7 @@ class Home extends Component{
                         </div>
                     </div>
                     <div className="project-item">
-                        <img src={techImg} alt="" className ="project-img"/>
+                        <img src={web} alt="" className ="project-img"/>
                         <h3 className="project-title">Hellp</h3>
                         <p className="project-info">
                         Helper
@@ -231,7 +232,7 @@ class Home extends Component{
                                 <td>
                                 <a href="https://hackbrightacademy.com/"><b>Hackbright Academy</b></a>
                                 
-                                <h4 className ="profession">Software Engineer</h4>
+                                <h4 className ="career-profession">Software Engineer</h4>
                                 </td>
                                 <td>
                                 <b>Jan 2018 - Present</b>
@@ -244,7 +245,7 @@ class Home extends Component{
                                 <td>
                                 <a href="https://hackbrightacademy.com/"><b> Shelter INC</b></a>
                                 
-                                <h4 className ="profession"> Data Analyst-Python </h4>
+                                <h4 className ="career-profession"> Data Analyst-Python </h4>
                                 </td>
                                 <td>
                                 <b>June 2018 - Dec 2018</b>
@@ -257,7 +258,7 @@ class Home extends Component{
                                 <td>
                                 <a href="https://nest.com/"><b> Google Nest </b></a>
                                 
-                                <h4 className ="profession">  Data Specialist UX Research </h4>
+                                <h4 className ="career-profession">  Data Specialist UX Research </h4>
                                 </td>
                                 <td>
                                 <b> May 2017 - May 2018 </b>
@@ -270,7 +271,7 @@ class Home extends Component{
                                 <td>
                                 <a href="https://www.jacksonhewitt.com/"><b> Jackson Hewwit </b></a>
                                 
-                                <h4 className ="profession"> Data Analyst </h4>
+                                <h4 className ="career-profession"> Data Analyst </h4>
                                 </td>
                                 <td>
                                 <b>Dec 2015 - May 2017</b>
