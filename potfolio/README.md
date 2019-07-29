@@ -1,6 +1,6 @@
 <h3> Claire Muwanguzi Website:</h3>
 
-This is my official website build using React.js 
+This is my official website built using React.js 
 
 ## Available Scripts
 
