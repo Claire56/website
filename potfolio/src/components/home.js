@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import portifolioImg from '../images/claire3.jpg';
+import portifolioImg from '../images/Cla.jpg';
 import ZyzyImg from '../images/Zz.gif';
 import shelter from '../images/Shelter.png';
 import techImg from '../images/techBot.gif';
