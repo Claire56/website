@@ -1,21 +1,47 @@
 import React, { Component } from 'react';
-import portifolioImg from '../images/picDress.jpg';
+import portifolioImg from '../images/claire3.jpg';
 import ZyzyImg from '../images/Zz.gif';
 import shelter from '../images/Shelter.png';
 import techImg from '../images/techBot.gif';
-import web from '../images/web.gif';
+import web from '../images/web2.gif';
 import google from '../images/googleNest.png';
 import jh from '../images/jh.jpg';
 import python from '../images/skills/python.png';
 import js from '../images/skills/js.png';
-import sql from '../images/skills/sql.png';
+import sql from '../images/skills/sql.jpg';
 import json from '../images/skills/json.png';
+import anaconda from '../images/skills/anaconda.png';
+import aws from '../images/skills/aws.jpg';
+import css from '../images/skills/css.png';
+import jango from '../images/skills/django.png';
+import flask from '../images/skills/flask.png';
+import html from '../images/skills/HTML5logo.png';
+import java from '../images/skills/Java.jpg';
+import JavaScript from '../images/skills/JavaScript.png';
+import jinja from '../images/skills/jinja2.png';
+import Numpy from '../images/skills/Numpy.png';
+import oracle from '../images/skills/oracle.png';
+import pgsql from '../images/skills/postgresql.png';
+import sqlite from '../images/skills/sqlite.png';
+import  sklearn from '../images/skills/sK-Learn.jpg';
+import R from '../images/skills/R.jpeg';
+import pandas from '../images/skills/pandas.jpg';
+import seaborn from '../images/skills/seaborn.png';
+import mysql from '../images/skills/mysql.png';
+import jquery from '../images/skills/jquery.png';
+import gcp from '../images/skills/gcp.jpg';
+import ibm from '../images/skills/ibm.png';
+import ajax from '../images/skills/ajax.jpg';
+import sas from '../images/skills/sas.jpg';
+
+
+
 
 class Home extends Component{
     constructor(props){
         super(props);
         this.state={
-            activeContent:'skills',
+            activeContent:'claire',
         }
     }
 
@@ -109,23 +135,23 @@ class Home extends Component{
                                 <span> React</span>
                             </div>
                             <div className="skill">
-                                <img src={python}  alt=""/>
+                                <img src={html}  alt=""/>
                                 <span>HTML5</span>
                             </div>
                             <div className="skill">
-                                <img src={python}  alt=""/>
+                                <img src={css}  alt=""/>
                                 <span> CSS</span>
                             </div>
                             <div className="skill">
-                                <img src={python} alt=""/>
+                                <img src={sas} alt=""/>
                                 <span>SAS</span>
                             </div>
                             <div className="skill">
-                                <img src={python}  alt=""/>
+                                <img src={R}  alt=""/>
                                 <span>R</span>
                             </div>
                             <div className="skill">
-                                <img src={python}  alt=""/>
+                                <img src={ajax}  alt=""/>
                                 <span>AJAX</span>
                             </div>
                         </div>
@@ -135,15 +161,15 @@ class Home extends Component{
                         <h3 >Libraries and Frameworks</h3>
                         <div className='skills'>
                             <div className="skill">
-                                <img src={python} alt =""/>
+                                <img src={sklearn} alt =""/>
                                 <span>SKLearn</span>
                             </div>
                             <div className="skill">
-                                <img src={python}  alt=""/>
+                                <img src={pandas}  alt=""/>
                                 <span>Pandas</span>
                             </div>
                             <div className="skill">
-                                <img src={python}  alt=""/>
+                                <img src={Numpy}  alt=""/>
                                 <span>NumPy</span>
                             </div>
                             <div className="skill">
@@ -151,71 +177,75 @@ class Home extends Component{
                                 <span>Matplotlib</span>
                             </div>
                             <div className="skill">
-                                <img src={python}  alt=""/>
+                                <img src={seaborn}  alt=""/>
                                 <span> Seaborn</span>
                             </div>
                             <div className="skill">
-                                <img src={python}  alt=""/>
+                                <img src={jinja}  alt=""/>
                                 <span>Jinja</span>
                             </div>
                             <div className="skill">
-                                <img src={python}  alt=""/>
+                                <img src={flask}  alt=""/>
                                 <span> Flask</span>
                             </div>
                              <div className="skill">
-                                <img src={python}  alt=""/>
+                                <img src={jquery}  alt=""/>
                                 <span>JQuery</span>
                             </div>
                             <div className="skill">
-                                <img src={python}  alt=""/>
+                                <img src={jango}  alt=""/>
                                 <span> Django</span>
                             </div>
 
                         </div>
                     </div>
 
-                    <div className="skills-grouping" >
-                        <h3 >Cloud Technologies</h3>
-                        <div className='skills'>
-                            <div className="skill">
-                                <img src={python} alt =""/>
-                                <span>AWS</span>
-                            </div>
-                            <div className="skill">
-                                <img src={python}  alt=""/>
-                                <span>G Cloud</span>
-                            </div>
-                            <div className="skill">
-                                <img src={python}  alt=""/>
-                                <span> IBM Cloud</span>
-                            </div>
-
-                        </div>
-                    </div>
+                    
 
                     <div className="skills-grouping" >
                         <h3 >Databases</h3>
                         <div className='skills'>
+                            
                             <div className="skill">
-                                <img src={python} alt =""/>
+                                <img src={pgsql} alt =""/>
                                 <span>PostgreSQl</span>
                             </div>
                             <div className="skill">
-                                <img src={python}  alt=""/>
+                                <img src={mysql}  alt=""/>
                                 <span>MySQl</span>
                             </div>
                             <div className="skill">
-                                <img src={python}  alt=""/>
+                                <img src={sqlite}  alt=""/>
                                 <span> SQLite</span>
                             </div>
                             <div className="skill">
-                                <img src={python}  alt=""/>
+                                <img src={oracle}  alt=""/>
                                 <span>Oracle</span>
                             </div>
                             <div className="skill">
-                                <img src={python}  alt=""/>
+                                <img src={sql}  alt=""/>
                                 <span>SQL Server</span>
                             </div>
+                        </div>
+                    </div>
+
+                    <div className="skills-grouping" >
+                        <h3 > Cloud Technologies </h3>
+                        <div className='skills'>
+                            <div className="skill">
+                                <img src={aws} alt =""/>
+                                <span>AWS</span>
+                            </div>
+                            
+                            <div className="skill">
+                                <img src={gcp}  alt=""/>
+                                <span>GCP </span>
+                            </div>
+                            <div className="skill">
+                                <img src={ibm}  alt=""/>
+                                <span> IBM Cloud</span>
+                            </div>
+                            
                         </div>
                     </div>
 
@@ -286,30 +316,38 @@ class Home extends Component{
                     <div className='blog_item'>
                         <ul>
                             <li>
-                            <p> How to build a twitter Bot: <b>Tech stack: </b>python, Tweepy, Twitter API</p>
+                            {/* <p> How to build a twitter Bot: <b>Tech stack: </b>python, Tweepy, Twitter API</p> */}
                     
-                            <a href= 'https://medium.com/@mclamu/build-a-twitter-bot-using-python-and-tweepy-31c50a0a835e'> More Details</a>
+                            <a href= 'https://medium.com/@mclamu/build-a-twitter-bot-using-python-and-tweepy-31c50a0a835e'> Build a twitter Bot Using Python and Tweepy.</a>
 
                             </li>
                             <li>
-                            <p> Using gifs to showcase your web project: <b>Tech stack: </b>Giphy </p>
-                            <a href= 'https://medium.com/@mclamu/create-a-gif-for-your-web-project-d091bf69c1a9'> More Details</a>
+                            {/* <p> Using gifs to showcase your web project: <b>Tech stack: </b>Giphy </p> */}
+                            <a href= 'https://medium.com/@mclamu/create-a-gif-for-your-web-project-d091bf69c1a9'> Using gifs to showcase your web project: </a>
                             </li>
                             
                             <li>
-                            <p> Analyse the titanic dataset: <b>Tech stack: </b>Tpython, Pandas, Numpy and Seaborn</p>
-                            <a href= 'https://github.com/Claire56/Data_Analysis/blob/master/RoughCopy-Titanic.ipynb'> More Details</a>
+                            {/* <p> Analyse the titanic dataset: <b>Tech stack: </b>Tpython, Pandas, Numpy and Seaborn</p> */}
+                            <a href= 'https://github.com/Claire56/Data_Analysis/blob/master/RoughCopy-Titanic.ipynb'> Analysis of the titanic dataset:</a>
                             </li>
-                            <li><p>Investigate the exponential distribution in R and compare it with the Central Limit Theorem <b>Tech stack: </b> R</p>
-                            <a href= 'http://rpubs.com/Claire56/331200'> More Details </a></li>
-                            <li><p>Exploring the Impact of Severe Weather on the Health and Economy of USA, CASE STUDY:NOAA Storm Database <b>Tech stack: </b> R</p>
-                            <a href= 'http://rpubs.com/Claire56/318191'> More Details </a></li>
+                            <li>
+                                {/* <p>Investigate the exponential distribution in R and compare it with the Central Limit Theorem <b>Tech stack: </b> R</p> */}
+                            <a href= 'http://rpubs.com/Claire56/331200'> Investigate the exponential distribution in R and compare it with the Central Limit Theorem </a>
+                            </li>
+                            <li>
+                                {/* <p>Exploring the Impact of Severe Weather on the Health and Economy of USA, CASE STUDY:NOAA Storm Database <b>Tech stack: </b> R</p> */}
+                            <a href= 'http://rpubs.com/Claire56/318191'> Exploring the Impact of Severe Weather on the Health and Economy of USA, CASE STUDY:NOAA Storm Database </a>
+                            </li>
 
-                            <li><p> Analyzing the ToothGrowth data set  <b>Tech stack: </b> R</p>
-                            <a href= 'http://rpubs.com/Claire56/331210'> More Details </a></li>
+                            <li>
+                                {/* <p> Analyzing the ToothGrowth data set  <b>Tech stack: </b> R</p> */}
+                            <a href= 'http://rpubs.com/Claire56/331210'> Analyzing the ToothGrowth data set </a>
+                            </li>
 
-                            <li><p> Create a leaflet: <b>Tech stack: </b> R</p>
-                             <a href= 'http://rpubs.com/Claire56/333823'> More Details</a></li>
+                            <li>
+                                {/* <p> Create a leaflet: <b>Tech stack: </b> R</p> */}
+                             <a href= 'http://rpubs.com/Claire56/333823'> Create a Kampala google map leaflet </a>
+                             </li>
                         </ul>
                     
                     </div>
