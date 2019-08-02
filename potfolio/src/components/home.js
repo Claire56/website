@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import portifolioImg from '../images/Cla.jpg';
+import portifolioImg from '../images/claire.jpg';
 import ZyzyImg from '../images/Zz.gif';
+import logo from '../images/picLogo.jpeg';
 import shelter from '../images/Shelter.png';
 import techImg from '../images/techBot.gif';
 import web from '../images/web2.gif';
@@ -71,10 +72,10 @@ class Home extends Component{
                     <h3 className="profile-name">Claire Muwanguzi</h3>
                     <h3 className="profession">Software Engineer</h3>
                     <ul className="social-link">
-                        <li><a href="https://twitter.com/Claire_codes"><i className={'fab fa-facebook'} /></a></li>
-                        <li><a href="https://twitter.com/Claire_codes"><i className={'fab fa-twitter'} /></a></li>
-                        <li><a href="https://github.com/Claire56"><i className={'fab fa-github'} /></a></li>
-                        <li><a href="https://www.linkedin.com/in/claire-muw/"><i className={'fab fa-linkedin'} /></a></li>
+                        <li><a href="https://twitter.com/Claire_codes"><i className={'fab fa-facebook'} />Twitter</a></li>
+                        <li><a href="https://twitter.com/Claire_codes"><i className={'fab fa-twitter'} />medium</a></li>
+                        <li><a href="https://github.com/Claire56"><i className={'fab fa-github'} />Github</a></li>
+                        <li><a href="https://www.linkedin.com/in/claire-muw/"><i className={'fab fa-linkedin'} />LinkedIn</a></li>
                     </ul>
             </div>
             
