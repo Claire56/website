@@ -73,7 +73,7 @@ class Home extends Component{
                     <h3 className="profession">Software Engineer</h3>
                     <ul className="social-link">
                         <li><a href="https://twitter.com/Claire_codes"><i className={'fab fa-facebook'} />Twitter</a></li>
-                        <li><a href="https://twitter.com/Claire_codes"><i className={'fab fa-twitter'} />medium</a></li>
+                        <li><a href="https://medium.com/@mclamu"><i className={'fab fa-twitter'} />medium</a></li>
                         <li><a href="https://github.com/Claire56"><i className={'fab fa-github'} />Github</a></li>
                         <li><a href="https://www.linkedin.com/in/claire-muw/"><i className={'fab fa-linkedin'} />LinkedIn</a></li>
                     </ul>
