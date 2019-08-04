@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import portifolioImg from '../images/claire.jpg';
 import ZyzyImg from '../images/Zz.gif';
-import logo from '../images/picLogo.jpeg';
 import shelter from '../images/Shelter.png';
 import techImg from '../images/techBot.gif';
-import web from '../images/web2.gif';
+import web from '../images/site.gif';
 import google from '../images/googleNest.png';
 import jh from '../images/jh.jpg';
 import python from '../images/skills/python.png';
